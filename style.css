@@ -1,0 +1,20 @@
+body{
+    background-color:skyblue;
+    
+    background-repeat: no-repeat;
+    background-size: 400%;
+}
+.imap {
+    width: 20%;
+    margin:auto;
+
+}
+.imap path{
+    fill:white;
+    stroke:skyblue;
+    stroke-width:1px;
+    transition: fill 0.1s;
+}
+.imap path:hover {
+    fill:rgb(234, 196, 196);
+}
